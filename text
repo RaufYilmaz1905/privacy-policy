@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası | Perkotek PDKS</title>
+<style>
+  body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 2rem; line-height: 1.6; }
+  h1, h2 { line-height: 1.25; }
+  .lang-toggle { margin: 1rem 0; }
+  .note { background:#fff8e1; border:1px solid #ffe082; padding: .75rem 1rem; border-radius: .5rem; }
+  footer { margin-top: 3rem; font-size: .9rem; color: #555; }
+</style>
+</head>
+<body>
+<h1>Gizlilik Politikası</h1>
+<p><strong>Perkotek PDKS</strong> (“Uygulama”), <strong>Perkotek</strong> tarafından sağlanmaktadır. Bu sayfa, Uygulamayı kullandığınızda kişisel verilerinizin nasıl işlendiğini açıklar.</p>
+
+<div class="note">
+  Not: Bu politika yalnızca Uygulamanın işlevleri için geçerlidir. Üçüncü taraf hizmetleri (örn. Firebase Cloud Messaging) kendi politikalarına tabidir.
+</div>
+
+<h2>Topladığımız Veriler</h2>
+<ul>
+  <li><strong>Kamera</strong>: Uygulama, QR/çubuk kodları taramak için <code>android.permission.CAMERA</code> iznini kullanır. Kamera görüntüsü <em>cihaz üzerinde</em> işlenir; fotoğraf/video <strong>kaydedilmez</strong>, <strong>sunuculara gönderilmez</strong>.</li>
+  <li><strong>Bildirim Tokenı (opsiyonel)</strong>: Bildirimler etkinleştirilirse Firebase Cloud Messaging (FCM) tarafından bir cihaz/uygulama örneği tanımlayıcısı üretilebilir. Bu token yalnızca bildirim göndermek için kullanılır.</li>
+</ul>
+
+<h2>Veri Kullanımı</h2>
+<ul>
+  <li>Kamera verileri yalnızca anlık tarama için kullanılır.</li>
+  <li>FCM tokenı (varsa) yalnızca bildirim teslimi içindir.</li>
+</ul>
+
+<h2>Paylaşım</h2>
+<p>Kişisel verileri <strong>satmıyoruz</strong> ve üçüncü taraflara <strong>pazarlama</strong> amaçlı paylaşmıyoruz. Zorunlu hallerde (yasal yükümlülük vb.) yetkili makamlarla paylaşım yapılabilir.</p>
+
+<h2>Güvenlik</h2>
+<p>Verilerinizi korumak için makul teknik ve idari önlemleri uyguluyoruz. Kamera akışı cihazı terk etmediğinden, uzak sunucularda kalıcı saklama yapılmaz.</p>
+
+<h2>Çocukların Gizliliği</h2>
+<p>Uygulama 13 yaş altına yönelik değildir.</p>
+
+<h2>Haklarınız ve İletişim</h2>
+<p>Gizlilikle ilgili talepleriniz için bize ulaşın: <a href="mailto:rauf@perkotek.com">rauf@perkotek.com</a></p>
+
+<h2>Üçüncü Taraf Hizmetler</h2>
+<ul>
+  <li>Firebase Cloud Messaging (Google LLC)</li>
+</ul>
+
+<footer>Yürürlük tarihi: 2025-08-27</footer>
+
+<hr>
+
+<h1 lang="en">Privacy Policy</h1>
+<p lang="en"><strong>Perkotek PDKS</strong> (“App”) is provided by <strong>Perkotek</strong>. This page explains how your information is processed when you use the App.</p>
+
+<div class="note" lang="en">
+  Note: This policy covers the App only. Third‑party services (e.g., Firebase Cloud Messaging) are subject to their own policies.
+</div>
+
+<h2 lang="en">Data We Collect</h2>
+<ul>
+  <li lang="en"><strong>Camera</strong>: The App uses <code>android.permission.CAMERA</code> to scan QR/barcodes. The camera feed is processed <em>on‑device</em>; no photos/videos are <strong>stored</strong> or <strong>sent to servers</strong>.</li>
+  <li lang="en"><strong>Notification Token (optional)</strong>: If notifications are enabled, Firebase Cloud Messaging (FCM) may generate a device/app instance identifier (token). This token is used solely to deliver notifications.</li>
+</ul>
+
+<h2 lang="en">How We Use Data</h2>
+<ul>
+  <li lang="en">Camera data is used only for real‑time scanning.</li>
+  <li lang="en">FCM token (if any) is used only for push delivery.</li>
+</ul>
+
+<h2 lang="en">Sharing</h2>
+<p lang="en">We do not sell personal data and do not share it with third parties for marketing. We may disclose information when required by law.</p>
+
+<h2 lang="en">Security</h2>
+<p lang="en">We apply reasonable technical and organizational measures. Since the camera stream does not leave the device, no persistent remote storage occurs.</p>
+
+<h2 lang="en">Children’s Privacy</h2>
+<p lang="en">The App is not directed to children under 13.</p>
+
+<h2 lang="en">Your Rights & Contact</h2>
+<p lang="en">For privacy requests, contact: <a href="mailto:rauf@perkotek.com">rauf@perkotek.com</a></p>
+
+<h2 lang="en">Third‑Party Services</h2>
+<ul>
+  <li lang="en">Firebase Cloud Messaging (Google LLC)</li>
+</ul>
+
+<footer lang="en">Effective date: 2025-08-27</footer>
+</body>
+</html>
